@@ -292,10 +292,10 @@ async function fetchAndDisplayNews(symbol) {
                     // Fallback if date is invalid but exists, e.g., show raw string or a default
                     // console.warn(`Invalid date format for: ${publishedTime}`);
                     // formattedTime = `Published: ${publishedTime}`; // Optional: show raw string
-                    formattedTime = 'Date N/A'; // Or simply leave it empty if you prefer
+                    formattedTime = ''; // Or simply leave it empty if you prefer
                 }
             } else {
-                formattedTime = 'Date N/A'; // If time_published is missing
+                formattedTime = ''; // If time_published is missing
             }
             // --- MODIFIED CODE ENDS HERE ---
 
@@ -501,4 +501,5 @@ function displayErrorMessage(message) {
 }
 
 // Initialize the simulator on page load
+
 init();
