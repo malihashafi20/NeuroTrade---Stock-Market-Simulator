@@ -1,1 +1,2 @@
-# NeuroTrade---Stock-Market-Simulator
+# NeuroTrade---Stock-Market-Simulator### 
+NeuroTrade is a modern, responsive stock market simulator designed with a futuristic, cyberpunk-inspired user interface. It allows users to track real-time stock prices, view historical charts, and manage a simulated portfolio with an initial balance. Key features include a real-time stock ticker, buy/sell functionality, and a market intelligence section that displays news and sentiment analysis for different companies. The project is built using HTML, CSS, and vanilla JavaScript, and it fetches data from the API.
